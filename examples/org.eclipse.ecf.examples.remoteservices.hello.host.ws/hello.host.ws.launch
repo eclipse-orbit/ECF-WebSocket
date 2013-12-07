@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.EquinoxLauncher">
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="automaticAdd" value="true"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/hello.host.ws"/>
+<booleanAttribute key="default" value="true"/>
+<booleanAttribute key="default_auto_start" value="true"/>
+<intAttribute key="default_start_level" value="4"/>
+<stringAttribute key="deselected_workspace_plugins" value="WebSocketTestClient,WebSocketTestServer,com.videonext.iface.impl,com.videonext.test.iface,org.eclipse.ecf,org.eclipse.ecf.examples.remoteservices.hello.consumer.ws,org.eclipse.ecf.osgi.services.distribution,org.eclipse.ecf.osgi.services.remoteserviceadmin,org.eclipse.ecf.provider,org.eclipse.ecf.server,org.eclipse.ecf.server.generic,org.eclipse.ecf.sharedobject,org.eclipse.ecf.ssl,org.eclipse.ecf.storage,org.eclipse.ecf.sync,org.eclipse.osgi.services.remoteserviceadmin"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<stringAttribute key="target_bundles" value="ch.qos.logback.classic@default:default,ch.qos.logback.core@default:default,ch.qos.logback.slf4j@default:false,com.ibm.icu@default:default,javax.activation@default:default,javax.annotation@default:default,javax.inject@default:default,javax.mail@default:default,javax.servlet@default:default,javax.transaction@default:false,javax.xml@default:default,org.apache.batik.css@default:default,org.apache.batik.util.gui@default:default,org.apache.batik.util@default:default,org.apache.felix.gogo.command@default:default,org.apache.felix.gogo.runtime@default:default,org.apache.felix.gogo.shell@default:default,org.apache.xerces@default:default,org.apache.xml.resolver@default:default,org.apache.xml.serializer@default:default,org.eclipse.core.contenttype@default:default,org.eclipse.core.jobs@default:default,org.eclipse.core.runtime@default:true,org.eclipse.ecf.console@default:default,org.eclipse.ecf.datashare@default:default,org.eclipse.ecf.discovery@default:default,org.eclipse.ecf.identity@default:default,org.eclipse.ecf.osgi.services.distribution@default:default,org.eclipse.ecf.osgi.services.remoteserviceadmin.proxy@default:default,org.eclipse.ecf.osgi.services.remoteserviceadmin@default:default,org.eclipse.ecf.provider.datashare.nio@default:default,org.eclipse.ecf.provider.datashare@default:default,org.eclipse.ecf.provider.discovery@default:default,org.eclipse.ecf.provider.remoteservice@default:default,org.eclipse.ecf.provider@default:default,org.eclipse.ecf.remoteservice.eventadmin@default:default,org.eclipse.ecf.remoteservice@default:default,org.eclipse.ecf.server@default:default,org.eclipse.ecf.sharedobject@default:default,org.eclipse.ecf@1:true,org.eclipse.equinox.app@default:default,org.eclipse.equinox.common@2:true,org.eclipse.equinox.concurrent@default:default,org.eclipse.equinox.console@default:default,org.eclipse.equinox.ds@1:true,org.eclipse.equinox.event@default:default,org.eclipse.equinox.preferences@default:default,org.eclipse.equinox.registry@default:default,org.eclipse.equinox.util@default:default,org.eclipse.jetty.continuation*8.1.14.v20131031@default:default,org.eclipse.jetty.http*8.1.14.v20131031@default:default,org.eclipse.jetty.io*8.1.14.v20131031@default:default,org.eclipse.jetty.jmx@default:default,org.eclipse.jetty.server*8.1.14.v20131031@default:default,org.eclipse.jetty.util*8.1.14.v20131031@default:default,org.eclipse.jetty.websocket@default:default,org.eclipse.osgi.services.remoteserviceadmin@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi.util@default:default,org.eclipse.osgi@-1:true,org.slf4j.api@default:default,org.w3c.css.sac@default:default,org.w3c.dom.smil@default:default,org.w3c.dom.svg@default:default"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<stringAttribute key="workspace_bundles" value="org.eclipse.ecf.examples.remoteservices.hello.host.ws@default:default,org.eclipse.ecf.examples.remoteservices.hello@default:default,org.eclipse.ecf.provider.websocket@default:default"/>
+</launchConfiguration>
