@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="ECF Jax-RS Providers Update Site" url="http://example.com/update/org.eclipse.ecf.provider.websockets">
+      ECF Jax-RS Providers Update Site
+   </description>
+	  
+   <feature id="org.eclipse.ecf.provider.websockets.feature"><category name="org.eclipse.ecf.provider.websockets"/></feature>
+   <feature id="org.eclipse.ecf.provider.websockets.feature.source"><category name="org.eclipse.ecf.provider.websockets"/></feature>
+   
+   <feature id="org.eclipse.ecf.provider.websockets.client.feature"><category name="org.eclipse.ecf.provider.websockets"/></feature>
+   <feature id="org.eclipse.ecf.provider.websockets.client.feature.source"><category name="org.eclipse.ecf.provider.websockets"/></feature>
+   
+   	<category-def name="org.eclipse.ecf.provider.websockets" label="ECF Jax-RS Providers" />
+</site>

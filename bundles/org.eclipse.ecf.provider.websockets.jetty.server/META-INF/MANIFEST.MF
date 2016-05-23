@@ -6,7 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: %plugin.provider
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: javax.servlet,
- org.eclipse.ecf.provider.jersey.server;version="1.0.0",
  org.eclipse.ecf.provider.websockets;version="1.0.0",
  org.eclipse.ecf.provider.websockets.server;version="1.0.0",
  org.eclipse.ecf.remoteservice;version="7.3.0",

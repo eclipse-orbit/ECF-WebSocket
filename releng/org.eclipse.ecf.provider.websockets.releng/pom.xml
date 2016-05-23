@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.eclipse.ecf.provider.websockets</groupId>
+	<artifactId>org.eclipse.ecf.provider.websockets.releng</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<parent>
+		<groupId>org.eclipseorbit</groupId>
+		<artifactId>org.eclipseorbit.parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../../../orbit-parent/org.eclipseorbit.parent/pom.xml</relativePath>
+	</parent>
+	
+	<modules>
+		<module>../org.eclipse.ecf.provider.websockets.target</module>
+		
+		<module>../../bundles/org.eclipse.ecf.provider.websockets</module>
+		<module>../../bundles/org.eclipse.ecf.provider.websockets.jetty.server</module>
+		<module>../../bundles/org.eclipse.ecf.provider.websockets.server</module>
+		
+		<module>../../features/org.eclipse.ecf.provider.websockets.feature</module>
+		
+		<module>../org.eclipse.ecf.provider.websockets.repository</module>
+	</modules>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<configuration>
+					<target>
+						<artifact>
+							<groupId>org.eclipse.ecf.provider.websockets</groupId>
+							<artifactId>org.eclipse.ecf.provider.websockets.target</artifactId>
+							<version>1.0.0-SNAPSHOT</version>
+						</artifact>
+					</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

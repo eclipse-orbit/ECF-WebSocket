@@ -6,7 +6,6 @@ import javax.servlet.Servlet;
 
 import org.eclipse.ecf.core.ContainerTypeDescription;
 import org.eclipse.ecf.core.IContainer;
-import org.eclipse.ecf.provider.jersey.server.JerseyServerDistributionProvider.JerseyServerContainer;
 import org.eclipse.ecf.provider.websockets.WebSocketsContainerInstantiator;
 import org.eclipse.ecf.provider.websockets.server.WebSocketsServerContainer;
 import org.eclipse.ecf.provider.websockets.server.WebSocketsServerContainer.WebSocketsServerRemoteServiceContainerAdapter.WebSocketsServerRemoteServiceRegistration;
@@ -19,7 +18,7 @@ public class JettyServerDistributionProvider extends WebSocketsServerDistributio
 
 	public static final String URL_CONTEXT_PARAM = "urlContext";
 	public static final String URL_CONTEXT_DEFAULT = System
-			.getProperty(JerseyServerContainer.class.getName() + ".defaultUrlContext", "http://localhost:8080");
+			.getProperty(JettyServerContainer.class.getName() + ".defaultUrlContext", "http://localhost:8080");
 	public static final String ALIAS_PARAM = "alias";
 	public static final String ALIAS_PARAM_DEFAULT = "/org.eclipse.ecf.provider.websockets.jetty.server";
 	

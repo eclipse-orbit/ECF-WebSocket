@@ -96,7 +96,7 @@ public abstract class WebSocketsServerContainer extends AbstractRSAContainer {
 
 	protected String createServletAlias(WebSocketsServerRemoteServiceRegistration registration) {
 		//return getAlias();
-		return (String) registration.getProperty("ecf.WebSockets.jersey.server.alias");
+		return (String) registration.getProperty("ecf.WebSockets.jetty.server.alias");
 	}
 
 	protected abstract Servlet createServlet(WebSocketsServerRemoteServiceRegistration registration);

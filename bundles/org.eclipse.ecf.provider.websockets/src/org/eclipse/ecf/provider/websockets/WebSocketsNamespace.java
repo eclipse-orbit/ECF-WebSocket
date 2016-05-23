@@ -19,11 +19,11 @@ import org.eclipse.ecf.core.identity.URIID;
 public class WebSocketsNamespace extends Namespace {
 
 	private static final long serialVersionUID = -3848279615939604280L;
-	public static final String NAME = "ecf.namespace.jaxrs";
+	public static final String NAME = "ecf.namespace.websockets";
 	public static WebSocketsNamespace INSTANCE;
 
 	public WebSocketsNamespace() {
-		super(NAME, "JaxRS Namespace");
+		super(NAME, "WebSocket Namespace");
 		INSTANCE = this;
 	}
 
@@ -39,13 +39,13 @@ public class WebSocketsNamespace extends Namespace {
 				throw new IllegalArgumentException("the first parameter must be of type String or URI");
 			return new URIID(INSTANCE, uri);
 		} catch (Exception e) {
-			throw new IDCreateException("Could not create JaxRS ID", e); //$NON-NLS-1$
+			throw new IDCreateException("Could not create WebSocket ID", e); //$NON-NLS-1$
 		}
 	}
 
 	@Override
 	public String getScheme() {
-		return "ecf.jaxrs";
+		return "ecf.websockets";
 	}
 
 }

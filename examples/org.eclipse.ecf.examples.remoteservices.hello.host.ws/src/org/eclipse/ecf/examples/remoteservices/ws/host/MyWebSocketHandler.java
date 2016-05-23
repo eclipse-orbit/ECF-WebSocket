@@ -46,10 +46,10 @@ public class MyWebSocketHandler extends WebSocketHandler {
 				 container = icm.getContainerFactory().createContainer(WebSocketGenericContainerInstantiator.SERVER_NAME, new Object[] {id});
 		 } catch (ContainerCreateException e) {
 			 System.out.println(e);
-		 }	
+		 }
 		 
 		 serverSOContainer = (WebSocketServerSOContainer)container;	
-	}	
+	}
 	
 	
 	 @Override
@@ -58,15 +58,11 @@ public class MyWebSocketHandler extends WebSocketHandler {
 		return socket;
 	}
 
-	private IContainerManager getContainerManagerService()
-    {
+	private IContainerManager getContainerManagerService() {
         if (containerManagerServiceTracker == null) {
             containerManagerServiceTracker = new ServiceTracker(Activator.getContext(), IContainerManager.class.getName(), null);
             containerManagerServiceTracker.open();
         }
-
         return (IContainerManager) containerManagerServiceTracker.getService();
     }
-
-	
 }
