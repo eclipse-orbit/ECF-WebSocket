@@ -4,7 +4,7 @@ Bundle-Name: Ws
 Bundle-SymbolicName: org.eclipse.ecf.examples.remoteservices.hello.consumer.ws
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.eclipse.ecf.examples.remoteservices.hello.consumer.ws.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.core.runtime;version="3.4.0",
  org.eclipse.ecf.core;version="3.0.0",
